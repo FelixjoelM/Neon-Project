@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register-style.css">
+   
+</head>
+<body>
+    <section class="register-container">
+        <h2 id="title-text">Student Registration Form</h2>
+        <form action="">
+            <div class="first-lastname">
+                <label for="first-name">First Name:</label>
+                    <input type="text" placeholder="Eg:John" required>
+                <label for="last-name" id="last-name">Last Name:</label>
+                    <input type="text" placeholder="Smith M" required>
+            </div>
+            <div class="dob">
+                <label for="dob">Dob:</label>
+                  <input type="date" required>
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                    <input type="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="course">
+                <label for="course">Course:</label>
+                    <select name="" id="course-selection" required>
+                        <option value="selection">Select Any One</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="full-stack-development">Full Stack Development</option>
+                        <option value="mobile-app-development">Mobile App Development</option>
+                        <option value="ui-ux-designer">UI/UX Design</option>
+                    </select>
+            </div>
+            <div class="username">
+                <label for="username">Username:</label>
+                    <input type="text" required>
+            </div>
+            <div class="password">
+                <label for="password">Password:</label>
+                    <input type="password" required>
+                <label for="confirm-password" id="conf-password">Confirm Password:</label>
+                    <input type="password" required>
+            </div>
+            <input type="submit" value="Register Now!" id="register-button">
+        </form>
+        <button id="login-button1">Redirect to Login Page</button>
+        <button id="homepage-button1">Back to Homepage</button>
+    </section>
+    <script src="basicfun.js" defer></script>
+</body>
+</html>

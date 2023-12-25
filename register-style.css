@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,200;1,400;1,700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,200;1,400;1,700&family=Comfortaa:wght@300;500;600&family=Ubuntu:wght@300&display=swap');
+
+body
+{
+    /* background-color: rgba(40, 73, 56, 0.907); */
+}
+#title-text
+{
+    margin: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: black;
+    font-family: comfortaa;
+}
+input
+{
+    background-color: aliceblue;
+    border: 2px solid black;
+    font-family: barlow;
+    outline: none;
+    border-radius: 0.7rem;
+    color: blueviolet;
+    padding-left: 0.5rem;
+}
+.register-container
+{
+    background-color: rgba(255, 255, 255, 0.325);
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+    font-family: barlow,sans-serif;
+    border-radius: 2rem;
+}
+label
+{
+    font-family: barlow,sans-serif;
+    font-size: 1.3rem;
+}
+.first-lastname > input
+{
+    height: 1.5rem;
+    margin-bottom: 1.1rem;
+    font-size: 1rem;
+}
+.first-lastname > #last-name
+{
+    margin-left: 2rem;
+}
+.dob > input
+{
+    margin: 1rem 0;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+.email > input
+{
+    margin: 1rem 0;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+#course-selection
+{
+    font-size: 1rem;
+    font-family: barlow;
+    height: 2rem;
+}
+#course-selection > option
+{
+    font-size: 1.2rem;
+    background-color: blueviolet;
+    color: white;
+}
+.username > input
+{
+    margin: 1rem 0;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+.password > input
+{
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.password > #conf-password
+{
+    margin-left: 2rem;
+}
+#register-button
+{
+    border: 0.2rem solid rgba(0, 0, 0, 0.759);
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: brown;
+    margin-left: 80%;
+    margin-top: 3%;
+}
+#login-button1
+{
+    font-size: 1rem;
+    font-family: comfortaa;
+    border-radius: 2rem;
+    border: 0.1rem solid black;
+    padding: 1rem;
+    margin-left: 2%;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 2%;
+}
+#homepage-button1
+{
+    font-size: 1rem;
+    font-family: comfortaa;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 0.1rem solid black;
+    margin-left: 2%;
+    background-color: gray;
+    color: white;
+}

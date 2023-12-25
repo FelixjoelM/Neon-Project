@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,200;1,400;1,700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,200;1,400;1,700&family=Comfortaa:wght@300;500;600&family=Ubuntu:wght@300&display=swap');
+
+body
+{
+    /* background-color: rgba(59, 107, 219, 0.97); */
+}
+
+.login-container
+{
+    display: flex;
+    /* background-color: lightgray; */
+    width: 70%;
+    margin: 0rem auto;
+    padding: 2rem;
+    font-family: barlow,sans-serif;
+    border-radius: 2rem;
+}
+.user-input
+{
+    width: 50%;
+    padding: 2rem;
+}
+.user-input > h2
+{
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 15%;
+    margin-left: 40%;
+    color: blueviolet;
+}
+.user-input > form
+{
+    display: flex;
+    flex-direction: column;
+}
+.user-input > form > input
+{
+    width: 50%;
+    margin: 1rem auto;
+}
+.user-input > form > #username
+{
+    height: 1.5rem;
+}
+.user-input > form > #password
+{
+    height: 1.5rem;
+}
+.user-input > form > label
+{
+    font-family: comfortaa,sans-serif;
+    font-size: 1.5rem;
+    margin-left: 20%
+}
+.user-input > form > #login-button1
+{
+    font-size: 1.5rem;
+    font-family: comfortaa,sans-serif;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 0.1rem solid black;
+    background-color: blueviolet;
+    color: white;
+}
+.feature-buttons > input
+{
+    display: block;
+    font-size: 1.5rem;
+    font-family: comfortaa,sans-serif;
+    padding: 1rem;
+    border-radius: 3rem;
+    margin: 25% auto;
+}
+.feature-buttons > #register-button1
+{
+    color: white;
+    background-color: brown;
+    border: 0.1rem solid black;
+}
+.feature-buttons > #homepage-button
+{
+    background-color: gray;
+    color: white;
+    border: 0.1rem solid black;
+}
+.heading > h2
+{
+    margin-left: 20%;
+    font-size: 2rem;
+    font-family: comfortaa,sans-serif;
+}
+.heading > h4
+{
+    margin-left: 20%;
+    font-size: 1rem;
+    font-family: barlow;
+}

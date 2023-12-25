@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,200;1,400;1,700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,200;1,400;1,700&family=Comfortaa:wght@300;500;600&family=Ubuntu:wght@300&display=swap');
+
+
+/* Default Styling */
+body
+{
+    font-size: 1.2rem;
+    /* background-color: rgba(144, 238, 144, 0.836); */
+    background-color: rgba(0, 0, 0, 0.103);
+}
+a
+{
+    text-decoration: none;
+}
+/* Navigation Bar Starts */
+
+.navigation-bar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: rem;
+    /* background-color: rgba(128, 128, 128, 0.308); */
+    background-color: white;
+    width: 100%;
+    height: 4.5rem;
+
+}
+.company-title
+{
+    display: flex;
+}
+.company-title > h2
+{
+    font-family: barlow;
+    margin: 0;
+    color: rgba(32, 32, 177, 0.712);
+    /* text-shadow: 2px 2px 2px black; */
+}
+.company-title > i
+{
+    margin: 0 1rem;
+    margin-top: 1.2rem;
+}
+.navigation-features
+{
+    margin-top: .7rem;
+}
+.navigation-features > a
+{
+    margin: 0 1.8rem;
+}
+.login-registration-button > button
+{
+    width: 8rem;
+    height: 2.5rem;
+    margin: 0 .8rem;
+    font-family: ubuntu,sans-serif;
+    font-weight: 900;
+}
+#login-button
+{
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+#register-button
+{
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+/* Navigation-end */
+
+/* Caption with image starts */
+.caption-content
+{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.89);
+    margin: 0 5%;
+    margin-top: 3.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.caption-text
+{
+    width: 65%;    
+}
+.caption-text > h2
+{
+    font-family: comfortaa,sans-serif;
+    font-weight: 900;
+    font-size: 3.2rem;
+    /* color: rgb(207, 80, 122); */
+    color: rgb(199, 130, 1);
+}
+.caption-text > h4
+{
+    font-family: barlow,ubuntu,sans-serif;
+    font-weight: 400;
+}
+.caption-text > #extra-caption
+{
+    font-family: ubuntu;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.74);
+    padding: 0.8rem 0;
+    width: 90%;
+    border-radius: .4rem;
+    background-color: rgba(128, 128, 128, 0.281);
+}
+.caption-image > img
+{
+    width: 100%;
+}
+/* course section starts */
+.side-heading
+{
+    margin-top: 4rem;
+}
+.side-heading > h2
+{
+    font-size: 2.5rem;
+    font-family: comfortaa,sans-serif;
+    text-align: center;
+}
+.course-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.986);
+    margin: 2rem 3%;    
+    padding: 2rem;
+}
+.course-section > div
+{
+    border-radius: 0.8rem;
+    padding: 0.9rem;
+    margin: 0 auto;
+    width: 20%;
+    height: 100%;
+    box-shadow: 5px 4px 6px black;
+    /* background-color: rgba(199, 186, 1, 0.842);
+    background-color: rgba(210, 105, 30, 0.767); */
+
+}
+.course-section > div > img
+{
+    border-radius: 0.9rem;
+    border: 0.1rem solid black;
+    width: 100%;
+    /* height: 15rem; */
+}
+.web-development
+{
+    background-color: rgba(255, 166, 0, 0.527);
+    border: 0.2rem solid orange;
+}
+.full-stack-development
+{
+    background-color: rgba(0, 128, 0, 0.479);
+    border: 0.2rem solid green;
+}
+.app-development
+{
+    background-color: rgba(0, 0, 255, 0.486);
+    border: 0.2rem solid blue;
+}
+.ui-ux-design
+{
+    background-color: rgba(128, 0, 128, 0.527);
+    border: 0.2rem solid purple;
+}
+.course-section > div > h4
+{
+    font-family: barlow,sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
+}
+.course-section > div > h5
+{
+    font-family: comfortaa,sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+}
+.course-section > div > button
+{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1.5rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(220, 20, 60, 0.712);
+    color: white;
+    font-size: 1rem;
+}
+
+/* About Section Starts */
+.about
+{
+    width: 80%;
+    margin: 0rem auto;
+}
+.side-heading>h2
+{
+    margin-top: 10rem;
+}
+.about > h2
+{
+    margin-top: 5rem;
+    font-family: barlow;
+    font-size: 2.3rem;
+}
+.about > h4
+{
+    font-family: ubuntu,sans-serif;
+    line-height: 2rem;
+    text-align: justify;
+}
+/* Certification Section Starts */
+.certificate-container
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+.certificate-container > .certificate-img
+{
+    width: 40%;
+}
+.certificate-container > .certificate-img > img
+{
+    width: 100%;
+    border: 0.2rem solid orange;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.2rem 0.2rem gray;
+}
+.certificate-container > .certificate-text
+{
+    width: 60%;
+    margin-left: 3rem;
+    background-color: rgba(128, 128, 128, 0.349);
+}
+.certificate-container > .certificate-text > h2
+{
+    font-size: 1.5rem;
+    margin: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Certificate section ends */
+
+/* Footer Section Starts */
+.footer-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-family: comfortaa;
+    color: rgba(245, 245, 245, 0.899);
+    margin-top: 3rem;
+}
+.footer-container > .contact-info
+{
+    font-size: 1.5rem;
+}
+.footer-container > .contact-info > h5 > a
+{
+    color: red;
+}
+.footer-container > .address-info > iframe
+{
+    margin: 2rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+@media(max-width:1200px)
+{
+    .navigation-bar
+    {
+        margin: 1rem 3rem;
+        width: 90%;
+        height: 10rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .caption-content 
+    {
+        margin: 2rem 4rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 80%;
+    }
+    .course-section
+    {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .course-section > div
+    {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+}
